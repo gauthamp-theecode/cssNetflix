@@ -1,0 +1,407 @@
+body{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-color: black;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+    
+
+}
+.container{
+  
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/59e045df-814d-4342-bf9d-e62ba23e916a/26b80b98-e1dc-48d2-ab1a-12b1001d959f/IN-en-20220418-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0%;
+    width: 100%;
+    height: 600px;
+    border-bottom: 5px solid white;
+    
+}
+.fade-bg{
+    height: 700px;
+    background: linear-gradient(rgba(10, 10, 10, 0.8), rgba(255, 248, 248, 0.8));
+    background: linear-gradient(rgba(12, 12, 12, 0.8), rgba(12, 10, 10, 0.8));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+header{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    border-bottom: 5px solid rgb(54, 47, 47);
+
+}
+.logo{
+    flex: 1;
+    height: 90px;
+    width: 170px;
+}
+.text{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 152px;
+    text-align: center;
+}
+
+.text1{
+     flex: 1;
+    font-size: 56px;
+    
+}
+.text2{
+    flex: 1;
+    margin-top: -42px;
+    font-size: 28px;
+}
+.text3{
+    flex: 1;
+    font-size: 18px;
+    margin-top: 0px;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    background-color: white;  
+    margin-top: 14px;
+    margin-left: 70px;
+    margin-bottom: 195px;
+    max-width: 625px;
+}
+
+input{
+    margin-top: 10px;
+    flex: 2;
+    padding-left: 12px;
+    height: 30px;
+    border-color: white;
+    border: none;
+}
+.b1{
+    flex: 1;
+    height: 50px;
+    background-color: #e50914;
+    font-size: 25px;
+    color: white;
+    border: 0px;
+}
+
+
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+  
+:-ms-input-placeholder { 
+    font-size: 12px;
+    color: #8c8c8c;
+}
+  
+::placeholder {
+    font-size: 12px;
+    color: #8c8c8c;
+  }
+.sign-in{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+    
+
+}
+select{
+    margin-right: 13px;
+    flex: 1;
+    height: 33px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding-left: 19px;
+    border: 1px solid white;
+}
+.b2{
+    margin-right: 4px;
+    flex: 1;
+    height: 33px;
+    width: 52px;
+    background-color: #e50914;
+    color: white;
+    font-size: 13px;
+    padding-left: 9px;
+    border-radius: 5px;
+    border: 0px;
+   
+
+}
+.page2{
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    border-bottom: 5px solid rgb(54, 47, 47);
+    
+
+}
+.left{
+    flex: 1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 105px;
+}
+.left1{
+    flex: 1;
+
+    font-size: 50px;
+}
+.left2{
+    flex: 1;
+    margin-top: -182px;
+    font-size: 27px;
+}
+.right{
+    margin-left: 140px;
+    flex: 1;
+    margin-right: 125px;
+}
+.image{
+    z-index: 10;
+    padding-top: 35px;
+    position: relative;
+    height: 385px;
+    width: 460px;
+}
+video{
+    position: relative;
+    top: -65px;
+    z-index: 3;
+    margin-top: -310px;
+    height: 324px;
+    width: 337px;
+    padding-left: 60px;
+    padding-top: 1px;
+}
+.page3{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 5px solid rgb(54, 47, 47);
+    height: 500px;
+}
+.left-p3{
+    flex: 1;
+    margin-left: 35px;
+}
+.picphone{
+    position: relative;
+    z-index: 0;
+    height: 350px;
+    width: 500px;
+    padding-top: 23px;
+    margin-left: 10px;
+}
+.right-p3{
+    flex: 1;
+    padding-right: 100px;
+}
+.img{
+    height: 77px;
+    width: 350px;
+    position: relative;
+    background-color: black;
+    border: 1px solid #222222;
+    margin-left: 80px;
+    margin-top: -112px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+}
+
+#img{
+    padding-left: 10px;
+    padding-top: 10px;
+    flex: 1;
+    height: 59px;
+    
+}
+#text{
+    flex: 2;
+    color: white;
+    padding-left: 22px;
+    padding-top: 17px;
+}
+#img2{
+    flex: 1;
+    padding-top: 7px;
+}
+
+#text1{
+   padding-top: 80px;
+   color: white;
+   font-size: 55px; 
+}
+#text2{
+   margin-top: -30px;
+   color: white;
+   font-size: 25px; 
+}
+.page4{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-bottom: 5px solid rgb(54, 47, 47);
+}
+.left-p4{
+    flex: 1;
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.right-p4{
+    flex: 1;
+}
+.imag{
+    z-index: 10;
+    position: relative;
+    margin-top: 80px;
+    height: 385px;
+    width: 578px;
+}
+.vdo{
+    position: relative;
+    top: -116px;
+    z-index: 3;
+    padding-left: 122px;
+    padding-top: 10px;
+}
+.page5{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 5px solid rgb(54, 47, 47);
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+.left-p5{
+    flex: 1;
+    height: 400px;
+    width: 500px;
+    margin-left: 24px;
+}
+.right-p5{
+    flex: 1;
+}
+.page6{
+    height: 750px;
+    border-bottom: 5px solid rgb(54, 47, 47);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+label{
+    display: flex;
+    flex-direction: row;
+    background-color: white;  
+    margin-top: 14px;
+    margin-left: 70px;
+    margin-bottom: 195px;
+    max-width: 625px;
+}
+
+input{
+    margin-top: 10px;
+    flex: 2;
+    padding-left: 12px;
+    height: 30px;
+    border-color: white;
+    border: none;
+}
+.b1{
+    flex: 1;
+    height: 50px;
+    background-color: #e50914;
+    font-size: 25px;
+    color: white;
+    border: 0px;
+}
+
+
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #8c8c8c;
+}
+  
+:-ms-input-placeholder { 
+    font-size: 12px;
+    color: #8c8c8c;
+}
+  
+::placeholder {
+    font-size: 12px;
+    color: #8c8c8c;
+  }
+.faq{
+    flex: 5;
+    color: white;
+    font-size: 29px;
+    background-color: #303030;
+    width: 750px;
+    padding-left: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    margin-top: -25px;
+    
+   
+}
+span{
+    display: block;
+    float: right;
+    font-size: 32px;
+    padding-right: 35px
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 190px;
+    margin-right: 190px;
+  
+    
+
+}
+ul{
+    flex: 1;
+
+
+}
+a{  color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+.label{
+    max-width: 600px;
+    margin: auto;
+}
+
